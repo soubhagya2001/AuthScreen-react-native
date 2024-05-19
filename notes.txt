@@ -1,0 +1,13 @@
+npx create-expo-app --template
+npx create-expo-app appName --template blank
+
+bun add react-navigation
+bun add react-navigation-stack
+
+npx expo install react-native-gesture-handler react-native-reanimated react-native-screens
+react-native-safe-area-context @react-native-community/masked-view 
+
+
+Icons : import Icon from '@expo/vector-icons/AntDesign'
+<Icon name='mail' color="#00716F" size={24}/>
+
